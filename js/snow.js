@@ -1,3 +1,4 @@
+
 function winScr() {
     'use strict';
     console.log("i work");
@@ -6,31 +7,30 @@ function winScr() {
     nav = document.getElementById("nav"),
     aNav = document.getElementById("aNav"),
     i;
-     console.log(yPos);
+     
     if (yPos > 50) {
-        console.log("wielki chuj");
         i = 0;
         brandImg.setAttribute("src", "img/logo.png");
         for(i=0; i<=4; i++){
-       document.getElementsByClassName("aNav")[i].style.color = "grey";
-            
-        } 
+            document.getElementsByClassName("aNav")[i].style.color = "grey";
+            } 
         nav.style.animationName = "navscrl";
         nav.style.animationDuration = "0.5s";
+        console.log(document.getElementById('nav').style.animationName);
      } 
-     else {
-        i = 0;
-        nav.style.animationName = "navscrlbk";
-        nav.style.animationDuration = "0.3s";
-        brandImg.setAttribute("src", "img/logo-light.png");
-        nav.setAttribute("color", "white");
-        console.log('the i is' + i);
-         for (i=0; i <= 4; i++){
-        document.getElementsByClassName("aNav")[i].style.color = "white";
-             
+     else { 
+         if(nav.style.animationName == "navscrl"){
+            i = 0;
+            nav.style.animationName = "navscrlbk";
+            nav.style.animationDuration = "0.3s";
+            brandImg.setAttribute("src", "img/logo-light.png");
+            for (i=0; i <= 4; i++){
+                document.getElementsByClassName("aNav")[i].style.color = "white";
+                }
+         }
          }
      }
-}
+
 {
 function quotesMouseDown(event) {
     'use strict';
