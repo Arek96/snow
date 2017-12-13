@@ -1,10 +1,6 @@
-
-
 *{
     box-sizing: border-box;
 }
-
-
 html, body{
     height: 100%;
     width: 100%;
@@ -25,11 +21,9 @@ html, body{
 .navBrand {
     flex-grow: 3;
 }
-
 .navItem>a {
     text-decoration: none;
     text-decoration-color: white;
-    
     font-family:sans-serif;
 }
 .aNav{
@@ -47,7 +41,6 @@ html, body{
     top: 0;
     right: 0;
   animation-fill-mode:forwards;
-    
 }
 .navLinks {
     display: flex;
@@ -60,7 +53,7 @@ html, body{
     letter-spacing: .006em;
     -webkit-font-smoothing: antialiased;
 }
- 
+
 .banner {
     background-image: url(../img/home-7.jpg);
     background-size: cover;
@@ -113,7 +106,6 @@ html, body{
     overflow: hidden;
     width: 60vw;
 }
-
 .about {
     display: flex;
     flex-direction: column;
@@ -121,7 +113,6 @@ html, body{
     align-items: center;
     height: 60vh;
 }
-
 @keyframes navscrl{
     0% {background-color: none;}
     100% {background-color: white;}
@@ -130,26 +121,21 @@ html, body{
      0% {background-color: white;}
      100% {background-color: none;}
 }
-
 .numbers {
     background-image: url(../img/bg-pattern.jpg);
     height: 30vh;
     padding-left: 17.5%;
-    }
-
+}
 .numItems {
    display: flex;
     align-items: center;
 }
-
 .img >i {
     color: white;
 }
-
 .img {
-padding: 20px;
+    padding: 20px;
 }
-
 .data>p {
     color: white;
     font-size: 1rem;
@@ -157,13 +143,10 @@ padding: 20px;
     margin: 0;
     display: block;
 }
-
 .data{
     display: block;
     margin: 10px;
 }
-
-
 .projects {
     display: flex;
     justify-content: center;
@@ -171,8 +154,7 @@ padding: 20px;
     align-items: center;
     text-align: center;
 }
-
-.thumbnail1 {
+#thumbnail1 {
     background-image: url(../img/portfolio-1-sm.jpg);
     background-position: center;
     background-size: cover;
@@ -186,8 +168,7 @@ padding: 20px;
     justify-content: center;
     align-items: center;
 }
-
-#thumbnailhover1 {
+.thumbnailhover{
      width: 100%;
     height: 100%;
     display: flex;
@@ -198,338 +179,124 @@ padding: 20px;
     flex-direction: column;
     visibility: hidden;
 }
-
-.thumbnail2 {
+#thumbnail2 {
     background-image: url(../img/portfolio-2-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh
 }
-#thumbnailhover2 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail3 {
+
+#thumbnail3 {
     background-image: url(../img/portfolio-3-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover3 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail4 {
+
+#thumbnail4 {
     background-image: url(../img/portfolio-4-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover4 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail5 {
+
+#thumbnail5 {
     background-image: url(../img/portfolio-5-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover5 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail6 {
+
+#thumbnail6 {
     background-image: url(../img/portfolio-6-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover6 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail7 {
+
+#thumbnail7 {
     background-image: url(../img/portfolio-7-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover7 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail8 {
+
+#thumbnail8 {
     background-image: url(../img/portfolio-8-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover8 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     background-color: rgba(0,0,0,0.8);
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
-}
-.thumbnail9 {
+
+#thumbnail9 {
     background-image: url(../img/portfolio-9-sm.jpg);
     background-position: center;
     background-size: cover;
     height: 40vh;
     width: 40vh;
 }
-#thumbnailhover9 {
-     width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    color: white;
-    flex-direction: column;
-    visibility: hidden;
+
+.thumbnail>a{
+    text-decoration:none;
+}
+.thlink:hover .thumbnailhover{
+    visibility: visible;
+    animation-name: thuhover;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+.thumbnailhover:hover .title {
+    animation-name: titanim;
+    animation-duration: 0.4s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode: forwards;
+    position: absolute;
+}
+.title{
+    margin-top: 0px;
+    position: absolute;
+}
+.descr{
+    margin-top: 30px;
+}
+.thumbnailhover:hover .descr {
+    animation-name: descranim;
+    animation-duration: 0.2s;
+    animation-delay: 0.05s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    position: absolute;
 }
 
-.thumbnail1>a{text-decoration:none;}
-.thumbnail2>a{text-decoration:none;}
-.thumbnail3>a{text-decoration:none;}
-.thumbnail4>a{text-decoration:none;}
-.thumbnail5>a{text-decoration:none;}
-.thumbnail6>a{text-decoration:none;}
-.thumbnail7>a{text-decoration:none;}
-.thumbnail8>a{text-decoration:none;}
-.thumbnail9>a{text-decoration:none;}
-.thlink:hover #thumbnailhover1{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover2{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover3{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover4{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover5{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover6{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover7{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover8{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-.thlink:hover #thumbnailhover9{visibility: visible; animation-name: thuhover;animation-duration: 0.5s; animation-fill-mode: forwards;}
-#thumbnailhover1:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.6s;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-}
-#thumbnailhover2:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover3:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover4:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover5:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover6:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover7:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover8:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover9:hover .title {
-    animation-name: titanim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-}
-#thumbnailhover1:hover .descr {
-    animation-name: descranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-    animation-fill-mode: forwards;
-}
-#thumbnailhover2:hover .descr {
-    animation-name: descranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover3:hover .descr {
-    animation-name: descranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover4:hover .descr {
-    animation-name: descranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover5:hover .descr {
-    animation-name: descranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover6:hover .descr {
-    animation-name: descranimdescranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover7:hover .descr {
-    animation-name: descranimdescranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover8:hover .descr{
-    animation-name: descranimdescranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
-#thumbnailhover9:hover .descr {
-    animation-name: descranimdescranim;
-    animation-duration: 0.3s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0.3s;
-}
 @keyframes thuhover{
     0%{background-color: rgba(0,0,0,0)}
     100%{background-color: rgba(0,0,0,0.8)}
 }
 @keyframes titanim{
-    0%{margin-top: 10px; }
-    50%{margin-top: 0;}
+    0%{margin-top: 0px; }
     100%{margin-top: -10px;}
 }
 @keyframes descranim{
-    0%{margin-bottom: -10px;}
-    100%{margin-bottom: 0;}
+    0%{margin-top: 30px; visibility: hidden;}
+    100%{margin-top: 20px;visibility: visible; }
 }
-
 .bestProjects > h1{
     font-family: sans-serif;
     font-size: 3rem;
 }
-
 .description>p {
     font-family: sans-serif;
     font-size: 1.25rem;
     text-align: center;
     
-}
-@media(max-width: 600px){
-    .thumbnail1{width: 50vh;height: 50vh;}
-    .thumbnail2{width: 50vh;height: 50vh;}
-    .thumbnail3{width: 50vh;height: 50vh;}
-    .thumbnail4{width: 50vh;height: 50vh;}
-    .thumbnail5{width: 50vh;height: 50vh;}
-    .thumbnail6{width: 50vh;height: 50vh;}
-    .thumbnail7{width: 50vh;height: 50vh;}
-    .thumbnail8{width: 50vh;height: 50h;}
-    .thumbnail9{width: 50vh;height: 50vh;}
-    .Items{flex-wrap: wrap;}
-    .navLinks{display: none;}
-    .bannerItems>h1{font-size:1.25rem; }
-    html{font-size: 50%;}
-    .navBrand{flex-grow: 1;}
-    .navRow{width: 100%;}
-    #aboutpar{width: 90vw;}
-}
-@media(max-width: 768px){
-    .thumbnail1{width: 40vh; height: 40vh;}
-    .thumbnail2{width: 40vh; height: 40vh;}
-    .thumbnail3{width: 40vh; height: 40vh;}
-    .thumbnail4{width: 40vh; height: 40vh;}
-    .thumbnail5{width: 40vh; height: 40vh;}
-    .thumbnail6{width: 40vh; height: 40vh;}
-    .thumbnail7{width: 40vh; height: 40vh;}
-    .thumbnail8{width: 40vh; height: 40vh;}
-    .thumbnail9{width: 40vh; height: 40vh;}
-    html{font-size: 75%}
-    .navLinks{display: none; }
-    .bannerItems{font-size: 1.75rem;}
-    .numbers{height: 70vh; padding-left: 7.5%;}
-    .Items{flex-wrap: wrap; width: 90%; justify-content: space-between}
-    .navBrand{flex-grow: 2;}
-    .navRow{width: 80%;}
-     #aboutpar{width: 80vw;}
-}
-@media(max-width: 991px){
-    navLinks{display: none; }
-    
-    .navBrand{flex-grow: 2}
-    .navRow{width: 90%}
 }
 .thumbnails {
     display: flex;
@@ -541,80 +308,172 @@ padding: 20px;
     margin-top: 10vh;
 }
 
-.carousell {
-    height: 60vh;
-    width: 100%;
-    background-image: url(../img/bg-pattern.jpg);
-    overflow: hidden;
-    }
-
-.quotes {
-    height: 90%;
-    width: 300%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    -webkit-touch-callout: none; 
-    -webkit-user-select: none; 
-     -khtml-user-select: none; 
-       -moz-user-select: none; 
-        -ms-user-select: none; 
-            user-select: none;
-
-}
-
-.quote {
-    height: 100%;
-    width: 33.33%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: white;
-}
-
-.buttons {
-    height: 10%;
-    display: flex;
-    justify-content: space-between;
-    width: 20vw;
-    margin-left: 39.5%;
-  
-    
-}
-
-.button {
-    color: darkgrey;
-   font-size: 12px;
-    cursor: pointer;
-    
-}
-.button:hover{
-    color:white;
-}
-.buttonActive{
-    -webkit-transition: 1s, font-size;
-    -moz-transition: 1s, font-size;
-    transition: 1s, font-size;
-    font-size: 20px;
-}
-
-.buttonInActive{
-     -webkit-transition: 1s, font-size;
-    -moz-transition: 1s, font-size;
-    transition: 1s, font-size;
-    font-size: 12px;
-}
 .par {
-    width: 90%;
-    text-align: center;
+    
+    width: 60%;
     font-size: 1.4rem;
     line-height: 1.45;
     margin-bottom: 1.15rem;
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-style: italic;
+    color: white;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face { font-family:'FontAwesome'; 
+        src: url('fonts/fontawesome-webfont.svg?v=4.5.0#fontawesomeregular') format('svg');
+    } 
+}
+.widthContainer {
+  margin-left: 20%;
+    margin-right: 20%;   
+}
+@media(min-width:991px){
+    .mobileNav{display: none;}
+    .mobileBtn{display: none;}
+ .mobileNavItems{width: 100%;height: 100%; background-color: rgba(255, 255, 255, 0.95); display: none; justify-content: center; align-items:center; flex-direction:column;position: fixed; z-index: 1;}
+    .mobileNavRow{display: none;}
+    
+    
+}
+@media(max-width:1440px) and (min-width:991px){
+    .navBrand{flex-grow: 2;}
+    .navRow{width: 70%;}
+    .mobileNav{display: none;}
+    .mobileBtn{display: none; }
+.mobileNavItems{width: 100%;height: 100%; background-color: rgba(255, 255, 255, 0.95); display: none; justify-content: center; align-items:center; flex-direction:column;position: fixed; z-index: 1;}
+    .mobileNavRow{display: none;}
+    
+}
+@media(max-width: 991px) and (min-width:768px){
+    navLinks{display: none; }
+    .widthContainer { margin-left: 15%;margin-right: 15%;}
+    .par{width:80%;}
+    .navBrand{flex-grow: 2;}
+    .navRow{width: 80%;}
+    .mobileNav{display: none;}
+    .mobileBtn{display: none;}
+.mobileNavItems{width: 100%;height: 100%; background-color: rgba(255, 255, 255, 0.95); display: none; justify-content: center; align-items:center; flex-direction:column;position: fixed; z-index: 1;}
+    .mobileNavRow{display: none;}
+    
+}
+@media (min-width:600px) and (max-width: 768px){
+    .thumbnail1{width: 40vh; height: 40vh;}
+    .thumbnail2{width: 40vh; height: 40vh;}
+    .thumbnail3{width: 40vh; height: 40vh;}
+    .thumbnail4{width: 40vh; height: 40vh;}
+    .thumbnail5{width: 40vh; height: 40vh;}
+    .thumbnail6{width: 40vh; height: 40vh;}
+    .thumbnail7{width: 40vh; height: 40vh;}
+    .thumbnail8{width: 40vh; height: 40vh;}
+    .thumbnail9{width: 40vh; height: 40vh;}
+    html{font-size: 75%}
+    .bannerItems{font-size: 1.75rem;}
+    .numbers{height: 70vh; padding-left: 7.5%;}
+    .Items{flex-wrap: wrap; width: 90%; justify-content: space-between}
+    .nav{display: none}
+    .mobileNav{position: fixed;display: flex;justify-content: center;align-items: center;width: 100%;height: 10vh;animation-fill-mode: forwards;}
+    .mobileNavItems{width: 100%;height: 100%; background-color: rgba(255, 255, 255, 0.95); display: none; justify-content: center; align-items:center; flex-direction:column;position: fixed; z-index: 1;}
+    .mobileNavRow{width: 90%;display: flex;flex-direction: row;align-content: center;justify-content: center;}
+    .mobileBtn{color: white;height: 30px;}
+     #aboutpar{width: 80vw;}
+    .widthContainer { margin-left: 5%;margin-right: 5%;}
+    .par{width: 90%;}
+}
+@media( max-width: 600px){
+    .thumbnail1{width: 50vh;height: 50vh;}
+    .thumbnail2{width: 50vh;height: 50vh;}
+    .thumbnail3{width: 50vh;height: 50vh;}
+    .thumbnail4{width: 50vh;height: 50vh;}
+    .thumbnail5{width: 50vh;height: 50vh;}
+    .thumbnail6{width: 50vh;height: 50vh;}
+    .thumbnail7{width: 50vh;height: 50vh;}
+    .thumbnail8{width: 50vh;height: 50h;}
+    .thumbnail9{width: 50vh;height: 50vh;}
+    .Items{flex-wrap: wrap;}
+    .nav{display: none;}
+    .bannerItems>h1{font-size:1.25rem; }
+    html{font-size: 50%;}
+    .mobileNav{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    animation-fill-mode: forwards;
+}
+.mobileNavItems{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+}
+.mobileNavRow{
+     width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.mobileBtn{
+    color: white;
+    height: 30px;
+}
+    #aboutpar{width: 90vw;}
+    .widthContainer { margin-left: 0%;margin-right: 0%;}
+    .par{width:90%;}
+}
+.carousel-bg {
+    background-image: url(/img/bg-pattern.jpg);
+    width:100%;
+    height: 60vh;
+}
+.cit {
+    font-size: 1.4rem;
+    line-height: 1.45;
+    margin-bottom: 1.15rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+
+.quote {    
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;    
 }
 
 
 
+
+.navItemMobile {
+    color: black;
+    margin:5%;
+    text-decoration: none;
+    font-size: 1.8em;
+    display: none;
+    z-index: 10;
+}
+.navItemMobile>a:link {
+    color: black;
+    text-decoration: none;
+    text-decoration-color: black;
+    font-family:sans-serif bold;
+}
+.mobileNavExitBtn {
+    position: fixed;
+    z-index: 1;
+    margin-left: 88vw;
+    margin-top:3vh;
+    display: none;
+    z-index: 2;
+}
