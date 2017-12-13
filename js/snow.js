@@ -1,4 +1,3 @@
-
 function winScr() {
     'use strict';
     console.log("i work");
