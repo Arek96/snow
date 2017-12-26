@@ -12,7 +12,7 @@
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
-  z-index:auto;
+  z-index:0;
     height: 100%;
     
     
@@ -55,6 +55,7 @@
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
+
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next,
   .owl-carousel .owl-dot {
@@ -102,7 +103,7 @@
   z-index: 0; }
 
 .owl-carousel .owl-animated-out {
-  z-index: 1; }
+  z-index: 0; }
 
 .owl-carousel .fadeOut {
   animation-name: fadeOut; }
@@ -147,7 +148,7 @@
   margin-top: -40px;
   background: url("owl.video.play.png") no-repeat;
   cursor: pointer;
-  z-index: 1;
+  z-index: 0;
   -webkit-backface-visibility: hidden;
   transition: transform 100ms ease; }
 
@@ -169,7 +170,7 @@
 
 .owl-carousel .owl-video-frame {
   position: relative;
-  z-index: 1;
+  z-index: 0;
   height: 100%;
   width: 100%; }
 
